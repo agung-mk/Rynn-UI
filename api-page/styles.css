@@ -1,0 +1,129 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #4B4B4B;
+    padding: 50px 30px;
+    padding-top: 100px;
+}
+
+img {
+    max-width: 80%;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+.navbar {
+    background-color: white;
+    padding: 15px 32px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    transition: box-shadow 0.3s ease;
+}
+
+.navbar.scrolled {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-brand {
+    color: #333;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-brand.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.btn-close:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.spinner-border.custom-spinner {
+    color: #333;
+}
+
+.modal-content {
+    padding: 10px;
+}
+
+.modal-dialog {
+    margin: 20px;
+    max-width: 100%;
+    max-height: 80vh;
+}
+
+.modal-body {
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+#apiQueryInputContainer input:focus, #searchInput:focus {
+    outline: none;
+    border: 3px solid #333 !important;
+    box-shadow: none;
+}
+
+#apiResponseContent, #apiEndpoint {
+    font-family: monospace;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+#apiResponseContent::-webkit-scrollbar {
+    display: none;
+}
+
+#apiLinks a {
+    display: block;
+    text-decoration: underline;
+    margin-bottom: 0.3rem;
+}
+
+.hero-section {
+    padding: 20px 25px;
+    background-color: #F8F9FA;
+    color: #333;
+    border-radius: 10px;
+}
+
+.lead {
+    font-size: 15px;
+    color: #666;
+}
+
+.btn-dark {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 20px;
+}
+
+@media screen and (min-width: 768px) {
+    img {
+        max-width: 40%;
+    }
+    
+    .modal-dialog {
+        margin: 80px;
+        max-width: 100%;
+        max-height: 60vh;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    img {
+        max-width: 40%;
+    }
+    
+    .modal-dialog {
+        margin: 80px;
+        max-width: 100%;
+        max-height: 60vh;
+    }
+}

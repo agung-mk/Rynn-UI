@@ -1,0 +1,39 @@
+{
+  "name": "Rynn Api's",
+  "version": "Rynn UI",
+  "description": "Simple and Easy-to-Use API Documentation",
+  "imageSrc": "https://media2.giphy.com/media/1ZlXGtKFZvsfS/giphy.gif?cid=6c09b952mp5121qp82g1u3h816mxri3a7d1yyjcgvkm7hcoe&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
+  "creator": "Rynn",
+  "links": [
+    {
+      "name": "Source Code (Coming Soon)",
+      "url": "https://github.com/RynnKunnn"
+    },
+    {
+      "name": "Contact Me",
+      "url": "https://wa.me/6285173370004"
+    }
+  ],
+  "categories": {
+    "AI (Artificial Intelligence)": {
+      "apis": {
+        "LuminAI": {
+          "desc": "Talk with luminai",
+          "path": "/ai/luminai?text="
+        }
+      }
+    },
+    "Search Tools": {
+      "apis": {
+        "Apkcombo": {
+          "desc": "Search app",
+          "path": "/search/apkcombo?q="
+        },
+        "YouTube": {
+          "desc": "Search video",
+          "path": "/search/youtube?q="
+        }
+      }
+    }
+  }
+}
