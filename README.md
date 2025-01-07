@@ -62,7 +62,7 @@ You can easily customize the UI by editing the `settings.json` file. Below is a 
 
 ### Api Settings
 
-- `creator`: The name of the creator, which will be displayed within the API documentation.
+- `creator`: Displays the creator's name in the interface.
 
 ### Links
 
@@ -72,7 +72,7 @@ You can easily customize the UI by editing the `settings.json` file. Below is a 
 ### Categories and Apis
 
 Organize APIs into categories for better navigation:
-- *Category Name (e.g., "AI (Artificial Intelligence)")*
+- **Category Name (e.g., "AI (Artificial Intelligence)")**
   - `apis`: Define individual APIs within the category:
     - `desc`: A short description of the API (e.g., "Talk with luminai").
     - `path`: The endpoint path for the API (e.g., /ai/luminai?text=).
