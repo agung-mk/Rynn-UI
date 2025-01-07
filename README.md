@@ -1,6 +1,6 @@
 # Rynn UI
 
-![Layout](https://files.catbox.moe/zggxvb.png)
+![Layout](https://files.catbox.moe/kp4zj8.png)
 Rynn UI is a simple and easy-to-use API documentation interface built with Express.js. It allows developers to quickly set up and view API documentation with customizable settings using a `settings.json` file. 
 
 ## Features
@@ -42,7 +42,7 @@ Your API documentation should now be available at `http://localhost:4000`.
 
 ## Customization
 
-![Layout](https://files.catbox.moe/ncew71.png)
+![Layout](https://files.catbox.moe/sls0qq.png)
 You can easily customize the UI by editing the `settings.json` file. Below is a breakdown of the configurable fields:
 
 ### General Settings
