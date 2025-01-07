@@ -2,12 +2,14 @@
   "name": "Rynn Api's",
   "version": "Rynn UI",
   "description": "Simple and Easy-to-Use API Documentation",
-  "imageSrc": "https://media2.giphy.com/media/1ZlXGtKFZvsfS/giphy.gif?cid=6c09b952mp5121qp82g1u3h816mxri3a7d1yyjcgvkm7hcoe&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
-  "creator": "Rynn",
+  "imageSrc": "https://media2.giphy.com/media/1ZlXGtKFZvsfS/giphy.gif?cid=6c09b952mmmh5uklxc3bsgfqpp7y74esne956uh8gqb560hn&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
+  "apiSettings": {
+    "creator": "Rynn"
+  },
   "links": [
     {
-      "name": "Source Code (Coming Soon)",
-      "url": "https://github.com/RynnKunnn"
+      "name": "Source Code",
+      "url": "https://github.com/RynnKunnn/Rynn-UI"
     },
     {
       "name": "Contact Me",
@@ -25,12 +27,12 @@
     },
     "Search Tools": {
       "apis": {
-        "Apkcombo": {
-          "desc": "Search app",
-          "path": "/search/apkcombo?q="
+        "Google": {
+          "desc": "Web search",
+          "path": "/search/google?q="
         },
         "YouTube": {
-          "desc": "Search video",
+          "desc": "Video search",
           "path": "/search/youtube?q="
         }
       }

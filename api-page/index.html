@@ -10,9 +10,20 @@
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
+    <div id="loadingScreen">
+        <div class="spinner-wrapper">
+            <div class="spinner-border text-dark mb-2" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <p>Loading...</p>
+        </div>
+    </div>
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-            <a id="header" class="navbar-brand"></a>
+            <a class="navbar-brand" style="display: flex; align-items: center;">
+                <span id="header" class="me-2"></span>
+                <div id="versionHeader" style="background-color: #333; color: white; padding: 4px 12px; font-size: 12px; border-radius: 100px;">Online!</div>
+            </a>
         </div>
     </nav>
     <div class="container">
@@ -38,17 +49,17 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <pre id="apiEndpoint" class="mb-3" style="background-color: #f8f9fa; padding: 10px; border-radius: 5px;"></pre>
-                    <div id="apiQueryInputContainer"></div> <!-- Input container -->
+                    <pre id="apiEndpoint" style="background-color: #f8f9fa; padding: 10px; border-radius: 5px;"></pre>
+                    <div id="apiQueryInputContainer"></div>
                     <div id="apiResponseLoading" class="d-none d-flex justify-content-center align-items-center" style="height: 100px;">
                         <div class="spinner-border custom-spinner" role="status">
                             <span class="visually-hidden">Loading...</span>
                         </div>
                     </div>
-                    <pre id="apiResponseContent" class="d-none" style="background-color: #f8f9fa; padding: 10px; border-radius: 5px;"></pre>
+                    <pre id="apiResponseContent" class="d-none mt-2" style="background-color: #f8f9fa; padding: 10px; border-radius: 5px;"></pre>
                 </div>
                 <div class="modal-footer">
-                    <button id="submitQueryBtn" class="btn btn-dark">Submit</button> <!-- Submit button -->
+                    <button id="submitQueryBtn" class="btn btn-dark">Submit</button>
                 </div>
             </div>
         </div>
