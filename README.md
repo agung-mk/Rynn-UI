@@ -156,7 +156,7 @@ If you need help with deployment, feel free to reach out to the creator or check
 
 This project is created and maintained by:
 
-- **[Rynn](https://github.com/RynnKunnn)**: Creator and main developer of the project.
+- **[Rynn](https://github.com/rynxzyy)**: Creator and main developer of the project.
 - **[Lenwy](https://github.com/Lenwyy)**: For the inspiration behind the project.
 - **[Siputzx](https://github.com/siputzx)**: For providing the LuminAI API.
 
