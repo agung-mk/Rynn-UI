@@ -27,7 +27,6 @@
         "gpt-3.5-turbo": {
           "desc": "Access GPT-3.5 Turbo",
           "path": "/ai/gpt-3.5-turbo?text="
-         }
 
         }
       }
